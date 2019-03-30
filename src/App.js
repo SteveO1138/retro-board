@@ -3,11 +3,11 @@ import './App.css';
 import Text from "./Text.jsx";
 
 
+
 class App extends Component {
 
   render() {
     return (
-   
       <div className="App">
       <div className="Box">
      <h1> The Good</h1>
@@ -15,13 +15,16 @@ class App extends Component {
         </div>
         <div className="Box">
         <h1> The Bad </h1> 
+      
       <Text/>
         </div>
         <div className="Box">
         <h1>The Ugly</h1>
       <Text/>
         </div>
+       
       </div>
+
      
     );
   }

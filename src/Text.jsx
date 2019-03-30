@@ -53,6 +53,7 @@ class Text extends Component {
         <div className="list-group">
           {this.state.text.map((text, index) => {
             return (
+              
               <ListItem
                 key={`text-${index}`}
                 index={index}
